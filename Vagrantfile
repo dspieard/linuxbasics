@@ -16,6 +16,6 @@ Vagrant.configure("2") do |config|
 
  
   # provisioning
-  config.vm.provision "shell", path:"scripts/basicsscript.sh", run: "always", privileged: true
+  config.vm.provision "shell", path:"scripts/basicsscript.sh", privileged: true
 
 end
